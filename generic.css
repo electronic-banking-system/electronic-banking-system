@@ -16,5 +16,5 @@ h2 {display:inline;}
 .code
 {
     border: dashed 1px #BCBCCB; padding:8px 12px; background-color: #F3F3F9; white-space:pre; font-family:"Courier New", Georgia;
-    font-size:14px; margin:6px 0;overflow:auto; 
+    font-size:12px; margin:6px 0;overflow:auto; 
 }

@@ -1,6 +1,7 @@
-<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
 
-<%@ Register src="WebUserControl.ascx" tagname="WebUserControl" tagprefix="uc1" %>
+
+ 
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -11,231 +12,109 @@
     </asp:ContentPlaceHolder>
  
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
-    <link href="styles.css" rel="stylesheet" type="text/css" />
-    <link href="themes/5/js-image-slider.css" rel="stylesheet" type="text/css" />
-    <link href="generic.css" rel="stylesheet" type="text/css" />
-    <script src="themes/5/js-image-slider.js" type="text/javascript"></script>
+    <link href="../styles.css" rel="stylesheet" type="text/css" />
+    <link href="../themes/5/js-image-slider.css" rel="stylesheet" type="text/css" />
+      <script src="../themes/5/js-image-slider.js" type="text/javascript"></script>
 
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="../style.css" rel="stylesheet" type="text/css" />
     
     <style type="text/css">
                        
       
-        .style11
-        {
-            width: 247px;
-            height: 142px;
-        }
-        .style17
-        {
-            height: 144px;
-        }
-       
+                       
+                                           
       
-        .style19
-        {
-            width: 81px;
-        }
-        .style20
-        {
-            width: 109px;
-        }
-        .style22
-        {
-            width: 97px;
-        }
-       
-      
-        .style23
-        {
-            height: 1px;
-        }
-       
-      
-        .style1000003
-        {
-            height: 155px;
-        }
-       
-      
-        .style1000004
-        {
-           
-        }
-       
-      
-        .style1000005
-        {
-            width: 102%;
-        }
-       
-              
-        .style1000010
-        {
-            width: 89px;
-        }
-        .style1000011
-        {
-            width: 76px;
-            margin-left: 0px;
-        }
-               
-      
-        .style1000012
-        {
-            width: 104px;
-        }
-        .style1000014
-        {
-            width: 111px;
-        }
-               
-      
-        .style1000015
-        {
-            width: 101%;
-        }
-               
-      
-        .style1000016
-        {
-            width: 94px;
-            margin-left: 0px;
-        }
-        .style1000017
-        {
-            width: 139px;
-        }
-        .style1000018
-        {
-            width: 115px;
-        }
-               
-      
-                        .style1000002
-                        {
-                            height: 297px;
-                        }
-                                       
-      
-        .style1000019
-        {
-            width: 944px;
-            direction: rtl;
-        }
-                                       
-      
-        .style1000020
+                        .style1000005
         {
             width: 100%;
         }
-                                       
+                                           
       
-        .style1000022
+                       
+                                           
+      
+        .style1000006
         {
-            color: #FF0000;
-            text-decoration: underline;
+            width: 931px;
         }
-        .style1000024
-        {
-            direction: ltr;
-        }
-        .style1000025
+                                           
+      
+                       
+                                           
+      
+        .style1000007
         {
             direction: rtl;
         }
-                                               
+                                           
+      
+                       
+                                           
+      
+        .style1000008
+        {
+            height: 31px;
+            width: 819px;
+        }
+                                                   
+      
+                       
+                                           
       
         </style>
 </head>
-<body onload="MM_preloadImages('images/index_17_a.gif','images/index_18_a.gif','images/index_19_a.gif','images/index_20_a.gif','images/index_21_a.gif','images/index_22_a.gif')" style="background-image: url('images/333.jpg'); background-repeat: repeat-x ; background-attachment: fixed; background-position: center top" >
+<body onload="MM_preloadImages('images/index_17_a.gif','images/index_18_a.gif','images/index_19_a.gif','images/index_20_a.gif','images/index_21_a.gif','images/index_22_a.gif')" style="background-image: url('../images/333.jpg'); background-repeat: repeat-x ; background-attachment: fixed; background-position: center top" >
     <form id="form1" runat="server">
-   <table  border="0" cellspacing="0" cellpadding="0" align="center" 
-        class="style1000019">
+   <table  border="0" cellspacing="0" cellpadding="0" align="center"  width="850" 
+        class="style1000007"   >
 
   <tr>
 
     <td height="25">
-        <table class="style1000020">
-            <tr>
-                <td width=" ">
-                    &nbsp;</td>
-                <td width="10%">
-                    &nbsp;</td>
-                <td width="40%">
-                    &nbsp;</td>
-                <td width="30%" align="left" >
+
+		    <table  width="100%">
+                <tr>
+                    <td width="70%"  >
+
+            <span lang="en-us">&nbsp;&nbsp;&nbsp; </span>
+                               </td>
+                    <td>
+
+		                &nbsp;</td>
+                    <td>
 
             <asp:Label ID="Label2" runat="server" ForeColor="White" Font-Bold="True"></asp:Label>
-            <span lang="en-us">&nbsp;</span><span lang="en-us">&nbsp;&nbsp; </span>
-                               <asp:Label ID="Label3" runat="server" 
-                ForeColor="White" Font-Bold="True"></asp:Label>
-                               </td>
-                
-                <td width="30%" class=" " style="width: 15%">
+                    </td>
+                    <td>
 
+		                <asp:Label ID="Label3" runat="server" 
+                ForeColor="White" Font-Bold="True"></asp:Label>
+                    </td>
+                    <td  >
             <asp:LinkButton ID="LinkButton2" runat="server" PostBackUrl="~/LoginOut.aspx" 
-                CausesValidation="False" ForeColor="#FF9900" Font-Bold="True">&#1578;&#1587;&#1580;&#1610;&#1604; &#1575;&#1604;&#1582;&#1585;&#1608;&#1580;</asp:LinkButton>
+                CausesValidation="False" ForeColor="#FF9900" Font-Bold="True">تسجيل الخروج</asp:LinkButton>
                                <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/Login/loginIn.aspx" 
-                CausesValidation="False" ForeColor="#FF9900" Font-Bold="True">&#1578;&#1587;&#1580;&#1610;&#1604; &#1575;&#1604;&#1583;&#1582;&#1608;&#1604;</asp:LinkButton>
-                               </td>
-                
-            </tr>
-        </table>
-      </td>
+                CausesValidation="False" ForeColor="#FF9900" Font-Bold="True">تسجيل الدخول</asp:LinkButton>
+                           </td>
+                </tr>
+            </table>
+               </td>
 
   </tr>
 
   <tr>
 
-    <td height="100" class="header">
-<table width="100%" height="100" border="0" cellspacing="0"             cellpadding="0"             style="  background-color :#354F82 ;  background-image: url('images/65.jpg'); background-repeat: no-repeat;">
+    <td  >
+<table  border="0" cellspacing="0"             cellpadding="0">      <tr>
 
-      <tr>
-
-        <td align="left" rowspan="2" height="150" width="500">&nbsp;</td>
-
-        <td width="72%" align="center" height="120">
-
-                              
-                               </td>
+        <td align="left" height="150" width="100%"> 
+             <asp:Image ID="Image2" runat="server" 
+                ImageUrl="~/images/65.jpg" Width="934px"   />
+                           </td>
 
       </tr>
 
-      <tr>
-
-        <td width="72%" align="left">
-
-		    <table  width="100%">
-                <tr>
-                    <td width="60%" align="center">
-
-                        &nbsp;</td>
-                    <td Width="5%">
-
-		    <span lang="en-us">
-            <asp:ImageButton ID="ImageButton3" runat="server" Height="20px" 
-                ImageUrl="~/images/Facebook-Logo1 (1).jpg" 
-                PostBackUrl="http://www.Facebook.com" Width="30px" />
-            </span>
-                    </td>
-                    <td Width="5%">
-
-		    <span lang="en-us">
-            <asp:ImageButton ID="ImageButton4" runat="server" Height="20px" 
-                ImageUrl="~/images/Twitter-Logo-300x293.jpg" 
-                PostBackUrl="http://www.Twitter.com" Width="30px" />
-            </span>
-                    </td>
-                    <td width="20%">
-                        &nbsp;</td>
-                </tr>
-            </table>
-          </td>
-
-      </tr>
-
-    </table></td>
+      </table></td>
 
   </tr>
 
@@ -243,41 +122,44 @@
 
     <td height="38"  >
 
-       <div id="tabs" class="style1000015">
+         <div id="tabs" class="style1000015">
 <ul style="font-size: medium; color: #000000; vertical-align: middle; text-align: center; font-weight: bold;" 
-               class="style1000024">
-<li><a class="style1000017"   >
-        <asp:LinkButton ID="LinkButton3" runat="server" Width="119px" 
-            CausesValidation="False" PostBackUrl="~/Admin/Default.aspx"><span class="style22">&#1604;&#1608;&#1581;&#1577; &#1575;&#1604;&#1578;&#1581;&#1603;&#1605;</span></asp:LinkButton></a></li>
+                 class="style1000008">
 
-<li></li>
+
+   
+
  
- <li><a href="ContactsUs.aspx"><span class="style1000011">&#1578;&#1608;&#1575;&#1589;&#1604; &#1605;&#1593;&#1606;&#1575;</span></a></li>
-    <li><a href="careers.aspx"><span class="style20">&#1575;&#1604;&#1608;&#1592;&#1575;&#1574;&#1601;</span></a></li>
 
-    <li><a href="Locations.aspx" class="style1000014"><span class="style1000010">
-        &#1605;&#1608;&#1602;&#1593;&#1606;&#1575; </span></a></li>
+  
+       
 
    
   
-<li><a href="Services.aspx" class="style1000012"><span class="style19"> &#1575;&#1604;&#1582;&#1583;&#1605;&#1575;&#1578;</span></a></li>
-    
- 
-<li><a href="Default.aspx" class="style1000018"><span class="style1000016">&#1575;&#1604;&#1585;&#1574;&#1610;&#1587;&#1610;&#1577;
-       </span></a></li>
-    
+    <li><a  >
+        <asp:LinkButton ID="LinkButton3" runat="server" Width="99px"             
+            CausesValidation="False" PostBackUrl="../Cust/Default.aspx"><span class="style22">لوحة التحكم</span></asp:LinkButton></a></li>
+ <li><a href="../ContactsUs.aspx" class="style1000018"><span class="style1000016">       
+    تواصل معنا</span></a></li>
+ <li></li>
+
+  <li><a href="../Locations.aspx" class="style1000014"><span class="style1000014"> 
+   &nbsp;&nbsp;   موقعنا&nbsp;&nbsp; </span></a></li>
+    <li><a href="../careers.aspx"><span class="style20">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;الوظائف&nbsp;&nbsp;</span></a></li>
+<li><a href="../Services.aspx" class="style1000012"><span class="style19"> &nbsp;&nbsp;&nbsp;الخدمات&nbsp;&nbsp;&nbsp;</span></a></li>
+ <li><a href="../Default.aspx"><span class="style1000012">&nbsp;&nbsp;الصفحة الرئيسية&nbsp;&nbsp;</span></a></li>
+
   
 </ul>
-           <p class="style23">
-               &nbsp;&nbsp;</p>
-</div></td>
+</div>
+      </td>
 
   </tr>
 
   <tr>
 
     <td  valign="top">
-        <table  border="0" cellspacing="0" 
+        <table  border="0" cellspacing="0" width="100%" 
             cellpadding="0" bgcolor="White">
 
       <tr align="left" valign="top">
@@ -285,187 +167,26 @@
            
                                    
 
-        <td width="20%"  bgcolor="#660033"   >
-           
-
-          <table  border="0" cellspacing="0" cellpadding="0" style="vertical-align: top;" 
-                bgcolor="#ACC6EC"   >
-
-            <tr>
-
-              <td valign="top" width="90%"  style="padding-top : 4px"  >
-
-               
- 
-               
-                  <uc1:WebUserControl ID="WebUserControl1" runat="server" />
-                  <img src="tryimage/k7292755.jpg" alt="" border="0" 
-                class="style11"/> </td>
-                <td width="8%" class="style1000004">&nbsp;
-                </td>
-
-            </tr>
-<tr>
-          <td class="style1000003">
-              <div class="style1000025">
-            <asp:FormView ID="FormView1" runat="server" DataKeyNames="NewsID" 
-                DataSourceID="SqlDataSource1" Height="205px" Width="232px">
-                <EditItemTemplate>
-                    NewsID:
-                    <asp:Label ID="NewsIDLabel1" runat="server" Text='<%# Eval("NewsID") %>' />
-                    <br />
-                    NewsDate:
-                    <asp:TextBox ID="NewsDateTextBox" runat="server" 
-                        Text='<%# Bind("NewsDate") %>' />
-                    <br />
-                    NewsSubject:
-                    <asp:TextBox ID="NewsSubjectTextBox" runat="server" 
-                        Text='<%# Bind("NewsSubject") %>' />
-                    <br />
-                    NewsBody:
-                    <asp:TextBox ID="NewsBodyTextBox" runat="server" 
-                        Text='<%# Bind("NewsBody") %>' />
-                    <br />
-                    NewsStatus:
-                    <asp:CheckBox ID="NewsStatusCheckBox" runat="server" 
-                        Checked='<%# Bind("NewsStatus") %>' />
-                    <br />
-                    <asp:LinkButton ID="UpdateButton" runat="server" CausesValidation="True" 
-                        CommandName="Update" Text="Update" />
-                    &nbsp;<asp:LinkButton ID="UpdateCancelButton" runat="server" 
-                        CausesValidation="False" CommandName="Cancel" Text="Cancel" />
-                </EditItemTemplate>
-                <InsertItemTemplate>
-                    NewsDate:
-                    <asp:TextBox ID="NewsDateTextBox0" runat="server" 
-                        Text='<%# Bind("NewsDate") %>' />
-                    <br />
-                    NewsSubject:
-                    <asp:TextBox ID="NewsSubjectTextBox0" runat="server" 
-                        Text='<%# Bind("NewsSubject") %>' />
-                    <br />
-                    NewsBody:
-                    <asp:TextBox ID="NewsBodyTextBox0" runat="server" 
-                        Text='<%# Bind("NewsBody") %>' />
-                    <br />
-                    NewsStatus:
-                    <asp:CheckBox ID="NewsStatusCheckBox0" runat="server" 
-                        Checked='<%# Bind("NewsStatus") %>' />
-                    <br />
-                    <asp:LinkButton ID="InsertButton" runat="server" CausesValidation="True" 
-                        CommandName="Insert" Text="Insert" />
-                    &nbsp;<asp:LinkButton ID="InsertCancelButton" runat="server" 
-                        CausesValidation="False" CommandName="Cancel" Text="Cancel" />
-                </InsertItemTemplate>
-                <ItemTemplate>
-                    <table class="style1000005">
-                        <tr>
-                            <td bgcolor="#7DB0E3"  
-                                style="color: #FFFFFF; font-weight: bold; text-decoration: underline;" 
-                                align="right" height="30">
-                                <span lang="ar-sa">&#1575;&#1604;&#1575;&#1582;&#1576;&#1575;&#1585;</span></td>
-                        </tr>
-                        <tr>
-                            <td bgcolor="#E0E0E0"  >
-                                <b>NewsDate</b>:
-                                <asp:Label ID="NewsDateLabel" runat="server" ForeColor="Black" 
-                                    Text='<%# Eval("NewsDate") %>' />
-                            </td>
-                        </tr>
-                        <tr>
-                            <td bgcolor="WhiteSmoke" align="right">
-                                <span lang="ar-sa">&#1575;&#1604;&#1593;&#1606;&#1608;&#1575;&#1606;</span><span lang="en-us">&nbsp;
-                                <br />
-                                </span>
-                                <asp:TextBox ID="TextBox1" runat="server" BackColor="WhiteSmoke" 
-                                    BorderStyle="None" Height="51px" ReadOnly="True" Width="239px" 
-                                    Columns="100" Enabled="False" Font-Bold="False" ForeColor="#000066" 
-                                    Text='<%# Bind("NewsSubject") %>' TextMode="MultiLine"></asp:TextBox>
-                                <br />
-                                <span class="style1000022" lang="ar-sa">&#1575;&#1604;&#1578;&#1601;&#1575;&#1589;&#1610;&#1604;</span><br />
-                                <asp:TextBox ID="TextBox2" runat="server" 
-                                    BorderStyle="None" Height="96px" Width="239px" BackColor="WhiteSmoke" 
-                                    Columns="200" Enabled="False" ReadOnly="True" Text='<%# Bind("NewsBody") %>' 
-                                    TextMode="MultiLine"></asp:TextBox>
-                            </td>
-                        </tr>
-                    </table>
-                </ItemTemplate>
-            </asp:FormView>
-              </div>
-            <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
-                ConnectionString="<%$ ConnectionStrings:ebankConnectionString1 %>" 
-                DeleteCommand="DELETE FROM [News] WHERE [NewsID] = @NewsID" 
-                InsertCommand="INSERT INTO [News] ([NewsDate], [NewsSubject], [NewsBody], [NewsStatus]) VALUES (@NewsDate, @NewsSubject, @NewsBody, @NewsStatus)" 
-                ProviderName="<%$ ConnectionStrings:ebankConnectionString1.ProviderName %>" 
-                SelectCommand="SELECT [NewsID], [NewsDate], [NewsSubject], [NewsBody], [NewsStatus] FROM [News] ORDER BY [NewsID] DESC" 
-                
-                UpdateCommand="UPDATE [News] SET [NewsDate] = @NewsDate, [NewsSubject] = @NewsSubject, [NewsBody] = @NewsBody, [NewsStatus] = @NewsStatus WHERE [NewsID] = @NewsID">
-                <DeleteParameters>
-                    <asp:Parameter Name="NewsID" Type="Int32" />
-                </DeleteParameters>
-                <InsertParameters>
-                    <asp:Parameter Name="NewsDate" DbType="Date" />
-                    <asp:Parameter Name="NewsSubject" Type="String" />
-                    <asp:Parameter Name="NewsBody" Type="String" />
-                    <asp:Parameter Name="NewsStatus" Type="Boolean" />
-                </InsertParameters>
-                <UpdateParameters>
-                    <asp:Parameter Name="NewsDate" DbType="Date" />
-                    <asp:Parameter Name="NewsSubject" Type="String" />
-                    <asp:Parameter Name="NewsBody" Type="String" />
-                    <asp:Parameter Name="NewsStatus" Type="Boolean" />
-                    <asp:Parameter Name="NewsID" Type="Int32" />
-                </UpdateParameters>
-            </asp:SqlDataSource>
-            </td>
-             </tr>
-                          </td>     </tr>
-
-        <tr>  <td bgcolor="#9CBCEB">
-            <br />
-            <marquee direction="Down"><img src="images/banner_import_financing_documentary_credits.jpg" alt="" border="0" 
-                 width="245px" > <p /><p />
-                <img src="images/larg1229249532.jpg" alt="" border="0" 
-                 width="245px" > 
-                </marquee></td>
-             
-                                   </tr>
-
-          </table>
-    
-           
-                                   
-
-        <td width="192"  style="width: 10px">
-           
-
-             </td>
-
-        <td width="727">
+        <td width="100 %">
 
 		
 
-		<table width="100%"  border="0" cellspacing="0" cellpadding="0"  >
+		<table  border="0" cellspacing="0" cellpadding="0" class="style1000005"  >
 
           <tr valign="top">
 
-            <td  valign="top" class="style17" style="padding-top : 4px">   
+            <td  valign="top" width="100%">   
 
 
 
-                <asp:Label ID="Label1" runat="server"></asp:Label>
-
-
-
- 
-
- </td>
+                <embed allowscriptaccess="always" class="style1000006" height="200" 
+                    pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" 
+                    src="yy.swf" type="application/x-shockwave-flash" wmode="transparent"></embed></td>
 
           </tr>
 
 <tr>
-		<td  bgcolor="White" valign="top" align="right">
+		<td  bgcolor="White" valign="top">
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
@@ -484,13 +205,13 @@
 </td>
       </tr>
 
-    </table><div style="background-color:White ;width:100%;"  >&nbsp;</div>
+    </table>
 <table width="100%">
   
 
   <tr>
 
-    <td height="60" align="center" bgcolor="#red" valign="top"><span lang="en-us">&nbsp;</span></td>
+    <td height="60" align="center" bgcolor="#3E4C6E"><span lang="en-us">&nbsp;</span></td>
 
   </tr>
 

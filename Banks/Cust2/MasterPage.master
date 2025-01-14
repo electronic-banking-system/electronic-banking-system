@@ -1,0 +1,222 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+
+ 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+ 
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+    <link href="../styles.css" rel="stylesheet" type="text/css" />
+    <link href="../themes/5/js-image-slider.css" rel="stylesheet" type="text/css" />
+      <script src="../themes/5/js-image-slider.js" type="text/javascript"></script>
+
+    <link href="../style.css" rel="stylesheet" type="text/css" />
+    
+    <style type="text/css">
+                       
+      
+                       
+                                           
+      
+                        .style1000005
+        {
+            width: 100%;
+        }
+                                           
+      
+                       
+                                           
+      
+        .style1000006
+        {
+            width: 931px;
+        }
+                                           
+      
+                       
+                                           
+      
+        .style1000007
+        {
+            direction: rtl;
+        }
+                                           
+      
+                       
+                                           
+      
+        .style1000008
+        {
+            height: 31px;
+            width: 819px;
+        }
+                                                   
+      
+                       
+                                           
+      
+        </style>
+</head>
+<body onload="MM_preloadImages('images/index_17_a.gif','images/index_18_a.gif','images/index_19_a.gif','images/index_20_a.gif','images/index_21_a.gif','images/index_22_a.gif')" style="background-image: url('../images/333.jpg'); background-repeat: repeat-x ; background-attachment: fixed; background-position: center top" >
+    <form id="form1" runat="server">
+   <table  border="0" cellspacing="0" cellpadding="0" align="center"  width="850" 
+        class="style1000007"   >
+
+  <tr>
+
+    <td height="25">
+
+		    <table  width="100%">
+                <tr>
+                    <td width="70%"  >
+
+            <span lang="en-us">&nbsp;&nbsp;&nbsp; </span>
+                               </td>
+                    <td>
+
+		                &nbsp;</td>
+                    <td>
+
+            <asp:Label ID="Label2" runat="server" ForeColor="White" Font-Bold="True"></asp:Label>
+                    </td>
+                    <td>
+
+		                <asp:Label ID="Label3" runat="server" 
+                ForeColor="White" Font-Bold="True"></asp:Label>
+                    </td>
+                    <td  >
+            <asp:LinkButton ID="LinkButton2" runat="server" PostBackUrl="~/LoginOut.aspx" 
+                CausesValidation="False" ForeColor="#FF9900" Font-Bold="True">تسجيل الخروج</asp:LinkButton>
+                               <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/Login/loginIn.aspx" 
+                CausesValidation="False" ForeColor="#FF9900" Font-Bold="True">تسجيل الدخول</asp:LinkButton>
+                           </td>
+                </tr>
+            </table>
+               </td>
+
+  </tr>
+
+  <tr>
+
+    <td  >
+<table  border="0" cellspacing="0"             cellpadding="0">      <tr>
+
+        <td align="left" height="150" width="100%"> 
+             <asp:Image ID="Image2" runat="server" 
+                ImageUrl="~/images/65.jpg" Width="934px"   />
+                           </td>
+
+      </tr>
+
+      </table></td>
+
+  </tr>
+
+  <tr>
+
+    <td height="38"  >
+
+         <div id="tabs" class="style1000015">
+<ul style="font-size: medium; color: #000000; vertical-align: middle; text-align: center; font-weight: bold;" 
+                 class="style1000008">
+
+
+   
+
+ 
+
+  
+       
+
+   
+  
+    <li><a  >
+        <asp:LinkButton ID="LinkButton3" runat="server" Width="99px"             
+            CausesValidation="False" PostBackUrl="../Cust/Default.aspx"><span class="style22">لوحة التحكم</span></asp:LinkButton></a></li>
+ <li><a href="../ContactsUs.aspx" class="style1000018"><span class="style1000016">       
+    تواصل معنا</span></a></li>
+ <li></li>
+
+  <li><a href="../Locations.aspx" class="style1000014"><span class="style1000014"> 
+   &nbsp;&nbsp;   موقعنا&nbsp;&nbsp; </span></a></li>
+    <li><a href="../careers.aspx"><span class="style20">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;الوظائف&nbsp;&nbsp;</span></a></li>
+<li><a href="../Services.aspx" class="style1000012"><span class="style19"> &nbsp;&nbsp;&nbsp;الخدمات&nbsp;&nbsp;&nbsp;</span></a></li>
+ <li><a href="../Default.aspx"><span class="style1000012">&nbsp;&nbsp;الصفحة الرئيسية&nbsp;&nbsp;</span></a></li>
+
+  
+</ul>
+</div>
+      </td>
+
+  </tr>
+
+  <tr>
+
+    <td  valign="top">
+        <table  border="0" cellspacing="0" width="100%" 
+            cellpadding="0" bgcolor="White">
+
+      <tr align="left" valign="top">
+
+           
+                                   
+
+        <td width="100 %">
+
+		
+
+		<table  border="0" cellspacing="0" cellpadding="0" class="style1000005"  >
+
+          <tr valign="top">
+
+            <td  valign="top" width="100%">   
+
+
+
+                <embed allowscriptaccess="always" class="style1000006" height="200" 
+                    pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" 
+                    src="yy.swf" type="application/x-shockwave-flash" wmode="transparent"></embed></td>
+
+          </tr>
+
+<tr>
+		<td  bgcolor="White" valign="top">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </td>
+		</tr>
+
+        </table>
+
+		
+		
+
+		
+
+		  </td>
+		  
+</td>
+      </tr>
+
+    </table>
+<table width="100%">
+  
+
+  <tr>
+
+    <td height="60" align="center" bgcolor="#3E4C6E"><span lang="en-us">&nbsp;</span></td>
+
+  </tr>
+
+</table>
+  
+    </form>
+</body>
+</html>

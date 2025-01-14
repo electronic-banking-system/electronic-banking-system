@@ -1,0 +1,64 @@
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #2E2E2E;
+}
+body {
+	background-color: #828282;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(images/taling.jpg);
+	background-repeat:repeat-x;
+}
+a:link {
+	color: #1E87D2;
+}
+a:visited {
+	color: #1E87D2;
+}
+a:hover {
+	color: #1E87D2;
+}
+a:active {
+	color: #1E87D2;
+}
+.header{
+background-color:#FFFFFF;
+}
+.menu{
+background-image:url(images/menutal.jpg);background-repeat:repeat-x;
+}
+.menuLs li { display:inline;margin-left:5px;margin-right:28px;font-size:14px}
+.menuLs ul { display:inline;}
+#WhiteColor{
+color:#FFFFFF;
+}
+#WhiteColor2{
+color:#FFFFFF;text-decoration:none;
+}
+
+.topMenu{
+background-image:url(tryimage/imj12.jpg);background-repeat:repeat-x;
+}
+.LeftMenuHeader{
+font-size:18px;color:#ffffff;padding-left:10px;
+
+}
+.RightMenu ul{
+width:192px;margin:0px;padding:0px;
+}
+.RightMenu li{
+height:20px;background-image:url(images/menulft.jpg);background-repeat:repeat-x;color:#FFFFFF;list-style: none;padding-left:25px;padding-top:4px;
+}
+.BodyBkg{
+background-image:url(images/products.jpg);background-repeat:no-repeat;
+}
+.style1 {
+	font-size: 28px;
+	font-weight: bold;
+}
+.Pr{
+float:left;
+}

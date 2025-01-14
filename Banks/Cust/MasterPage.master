@@ -1,0 +1,255 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+
+ 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" dit="rtl">
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+ 
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link href="themes/5/js-image-slider.css" rel="stylesheet" type="text/css" />
+      <script src="themes/5/js-image-slider.js" type="text/javascript"></script>
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    
+    <style type="text/css">
+                       
+      
+                       
+                                           
+      
+                        .style1000005
+        {
+            width: 100%;
+        }
+                                           
+      
+                       
+                                           
+      
+        .style1000006
+        {
+            width: 931px;
+        }
+                                           
+      
+                       
+                                           
+      
+        .style1000007
+        {
+            direction: rtl;
+        }
+                                           
+      
+                       
+                                           
+      
+        .style1000009
+        {
+            width: 839px;
+            height: 66px;
+        }
+                                           
+      
+                       
+                                           
+      
+        .style1000010
+        {
+            width: 933px;
+            height: 1px;
+        }
+        .style1000011
+        {
+            width: 114px;
+        }
+        .style1000012
+        {
+            width: 59px;
+        }
+        .style1000013
+        {
+            width: 61px;
+        }
+        .style1000014
+        {
+            width: 79px;
+        }
+        .style1000015
+        {
+            width: 93px;
+        }
+        .style1000016
+        {
+            width: 113px;
+        }
+        .style1000017
+        {
+            height: 42px;
+        }
+                                           
+      
+                       
+                                           
+      
+        </style>
+</head>
+<body   onload="MM_preloadImages('images/index_17_a.gif','images/index_18_a.gif','images/index_19_a.gif','images/index_20_a.gif','images/index_21_a.gif','images/index_22_a.gif')" style="background-image: url('images/333.jpg'); background-repeat: repeat-x ; background-attachment: fixed; background-position: center top" >
+    <form id="form1" runat="server">
+   <table  border="0" cellspacing="0" cellpadding="0" align="center"  width="850" 
+        class="style1000007"     >
+
+  <tr>
+
+    <td height="25">
+
+		    <table  width="100%">
+                <tr>
+                    <td width="70%"  >
+
+            <span lang="en-us">&nbsp;&nbsp;&nbsp; </span>
+                               </td>
+                    <td>
+
+		                &nbsp;</td>
+                    <td>
+
+            <asp:Label ID="Label2" runat="server" ForeColor="White" Font-Bold="True"></asp:Label>
+                    </td>
+                    <td>
+
+		                <asp:Label ID="Label3" runat="server" 
+                ForeColor="White" Font-Bold="True"></asp:Label>
+                    </td>
+                    <td width="15%"  >
+            <asp:LinkButton ID="LinkButton2" runat="server" PostBackUrl="~/LoginOut.aspx" 
+                CausesValidation="False" ForeColor="#FF9900" Font-Bold="True">تسجيل الخروج</asp:LinkButton>
+                               <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/Login/loginIn.aspx" 
+                CausesValidation="False" ForeColor="#FF9900" Font-Bold="True">تسجيل الدخول</asp:LinkButton>
+                           </td>
+                </tr>
+            </table>
+               </td>
+
+  </tr>
+
+  <tr>
+
+    <td  >
+<table  border="0" cellspacing="0"             cellpadding="0">      <tr>
+
+        <td align="left" height="150" width="100%"> 
+             <asp:Image ID="Image2" runat="server" 
+                ImageUrl="~/images/65.jpg" Width="934px"   />
+                           </td>
+
+      </tr>
+
+      </table></td>
+
+  </tr>
+
+  <tr>
+
+    <td height="38"  >
+
+         <div id="tabs" class="style1000017"  >
+<ul style="font-size: medium; color: #000000; vertical-align: middle; text-align: center; font-weight: bold;" 
+                 class="style1000009">
+
+<li><a class="style1000010"   >  
+    <asp:LinkButton ID="LinkButton3" 
+        runat="server"     CausesValidation="False" PostBackUrl="../Cust/Default.aspx" 
+        Height="27px" Width="90px"><span class="style22">&#1604;&#1608;&#1581;&#1577;&#1575;&#1604;&#1578;&#1581;&#1603;&#1605;</span></asp:LinkButton></a></li>
+<li><a href="../ContactsUs.aspx" class="style1000018"><span class="style1000016">   &#1578;&#1608;&#1575;&#1589;&#1604; &#1605;&#1593;&#1606;&#1575;</span></a></li>
+<li><a href="../Locations.aspx" class="style1000014"><span class="style1000012">      &#1605;&#1608;&#1602;&#1593;&#1606;&#1575; </span></a></li>
+<li><a href="../careers.aspx"><span class="style1000013">&#1575;&#1604;&#1608;&#1592;&#1575;&#1574;&#1601;</span></a></li>
+<li><a href="../Services.aspx" class="style1000014"><span class="style19"> &#1575;&#1604;&#1582;&#1583;&#1605;&#1575;&#1578;</span></a></li>
+ <li><a href="../Default.aspx" class="style1000011"><span class="style1000015">&#1575;&#1604;&#1585;&#1574;&#1610;&#1587;&#1610;&#1577;</span></a></li>
+
+  
+</ul>
+            
+</div>
+      </td>
+
+  </tr>
+
+  <tr>
+
+    <td  valign="top">
+        <table  border="0" cellspacing="0" width="100%" 
+            cellpadding="0" bgcolor="White">
+
+      <tr align="left" valign="top">
+
+           
+                                   
+
+        <td width="100 %">
+
+		
+
+		<table  border="0" cellspacing="0" cellpadding="0" class="style1000005"  >
+
+          <tr valign="top">
+
+
+            <td  valign="top" width="100%" colspan="2">   
+
+
+
+                <embed allowscriptaccess="always" class="style1000006" height="200" 
+                    pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" 
+                    src="yy.swf" type="application/x-shockwave-flash" 
+                    wmode="transparent"></td>
+
+          </tr>
+
+<tr>
+	
+       </tr></table> 
+<table width = "100%"><tr><td  bgcolor="White" valign="top" height="300" width="20%">
+           <embed src="p9.swf" quality="high" type="application/x-shockwave-flash" wmode="transparent" width="250" height="500" pluginspage="http://www.macromedia.com/go/getflashplayer" allowScriptAccess="always"></embed></td>
+	
+       <td  bgcolor="White" valign="top"  width="100%" align="right">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </td>
+		</tr>
+
+        </table>
+
+		
+		
+
+		
+
+		  </td></tr></table>
+		  
+</td>
+      </tr>
+
+
+
+  
+
+  <tr>
+
+    <td height="60" align="center" bgcolor="#3E4C6E"><span lang="en-us">&nbsp;</span></td>
+
+  </tr>
+
+</table>
+  
+    </form>
+</body>
+</html>
